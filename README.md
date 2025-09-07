@@ -1,16 +1,25 @@
-# not
+📝 ToDo Uygulaması
 
-A new Flutter project.
+Basit ve kullanıcı dostu bir görev yönetim uygulaması. Kullanıcılar görev ekleyebilir, güncelleyebilir ve silebilir. Görevler Firebase Firestore üzerinde saklanır, böylece cihazlar arasında senkronize şekilde çalışır.
 
-## Getting Started
+🚀 Özellikler
 
-This project is a starting point for a Flutter application.
+* Görev ekleme, düzenleme ve silme
+* Görevleri tamamlandı olarak işaretleme
+* Firestore ile bulut tabanlı veri yönetimi
+* Kullanıcı dostu Flutter arayüzü
+  
+🛠 Kullanılan Teknolojiler
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter
+* Dart
+* Firebase Authentication
+* Firebase Firestore
+* Riverpod (State Management)
+  
+Firebase entegrasyonu için:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Firebase Console üzerinden proje oluştur
+2. `google-services.json` dosyasını Android `app/` klasörüne ekle
+3. `GoogleService-Info.plist` dosyasını iOS için proje içine ekle
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
