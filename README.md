@@ -17,9 +17,4 @@ Basit ve kullanıcı dostu bir görev yönetim uygulaması. Kullanıcılar göre
 * Firebase Firestore
 * Riverpod (State Management)
   
-Firebase entegrasyonu için:
-
-1. Firebase Console üzerinden proje oluştur
-2. `google-services.json` dosyasını Android `app/` klasörüne ekle
-3. `GoogleService-Info.plist` dosyasını iOS için proje içine ekle
 
